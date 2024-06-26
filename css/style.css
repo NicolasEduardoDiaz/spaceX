@@ -1,0 +1,31 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto-Regular";
+}
+
+body{
+    background:  linear-gradient((var(--color--one), var(--color--one--rgba)));
+}
+
+*::-webkit-scrollbar{
+    height: 12px;
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track{
+    background-color: var(--color--five);
+}
+
+*::-webkit-scrollbar-track:hover,
+*::-webkit-scrollbar-thumb:hover{
+    cursor: pointer;
+}
+
+*::-webkit-scrollbar-thumb{
+    border: 1px solid var(--color--five);
+    background-color: var(--color--one--rgba);
+}
